@@ -1,10 +1,6 @@
----
-description: This is an API doc
----
+# Update cakes
 
-# API Docs
-
-{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="put" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
 Get Cakes
 {% endapi-method-summary %}
